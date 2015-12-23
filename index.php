@@ -8,6 +8,15 @@ include 'iapp.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no;">
     <title>To Do</title>
     <link href="main.css" rel="stylesheet">
+    <script>
+		var _hmt = _hmt || [];
+		(function() {
+ 		var hm = document.createElement("script");
+  		hm.src = "//hm.baidu.com/hm.js?16a67cb11ac6cccdcba39185ff45a1fb";
+  		var s = document.getElementsByTagName("script")[0]; 
+  		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </head>
 <body>
 <div id="error" class="error hide-d">
