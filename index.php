@@ -1,6 +1,6 @@
 <?php
-include 'iapp.php';
-?>
+//include 'iapp.php';
+//?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,16 +25,16 @@ include 'iapp.php';
     <p class="sta"><a href="#">去下载Chrome</a></p>
 </div>
 <div id="container" class="container">
-    <h1>To Do List</h1>
+    <h1>备忘清单</h1>
 
     <p class="sta">
+        需要解决的事件
         <span id="remaining">0</span>
-        of
+        全部事件
         <span id="all">0</span>
-        remaining
     </p>
 
-    <p class="sta pointer clean" onclick="clean()">clean</p>
+    <p class="sta pointer clean" onclick="clean()">清空</p>
 
     <div class="width-ctrl">
         <form id="add-task" class="add-task" name="addTaskForm" onsubmit="return false">
@@ -49,7 +49,7 @@ include 'iapp.php';
         <p>Powered by <a href="http://www.sevenskey.xyz/365/index.html">Sevenskey</a> & <a href="http://yb.upc.edu.cn">UPCyiban</a>
         </p>
 
-        <p>要吃鱼啊喵(^=ω=^)</p>
+<!--        <p>要吃鱼啊喵(^=ω=^)</p>-->
     </footer>
 </div>
 
